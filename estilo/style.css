@@ -3,4 +3,48 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #4C6873;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+
+div#imagem{
+    background-color: #4C6873;
+    background-image: url(../imagens/pexels-pixabay-273209.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: block;
+}
+
+div#formulario{
+    display: block;
+    padding: 10px;
 }
