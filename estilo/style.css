@@ -8,7 +8,7 @@
 }
 
 body, html{
-    background-color: #4C6873;
+    background-color: #253B40;
     width: 100vw;
     height: 100vh;
 }
@@ -33,10 +33,12 @@ section#login{
 
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+
+    transition: width 0.3s, height 0.3s;
 }
 
 div#imagem{
-    background-color: #4C6873;
+    background-color: #253B40;
     background-image: url(../imagens/pexels-pixabay-273209.jpg);
     background-size: cover;
     background-repeat: no-repeat;
