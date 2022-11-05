@@ -9,6 +9,8 @@ Desktop: 992px ate 1200px;
 Grandes telas: acima de 1200px
 ------------------------------*/
 
+
+/*Media type para Tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
@@ -45,6 +47,8 @@ Grandes telas: acima de 1200px
     }
 }
 
+
+/*Media type para Telas Grandes*/
 @media screen and (min-width: 992px){
 
     body{
