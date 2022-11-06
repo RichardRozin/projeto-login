@@ -103,6 +103,11 @@ div.campo{
     margin: 7px 0px
 }
 
+input{
+    padding: 5px;
+    width: 89%;
+}
+
 label{
     display: none;
     text-align: center;
