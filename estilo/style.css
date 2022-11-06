@@ -65,7 +65,7 @@ input[type=submit]{
     font-size: 1em;
     width: 100%;
     height: 30px;
-    background-color: #4C6873;
+    background-color: #4e6d79;
     color: white;
     border: none;
     border-radius: 5px;
@@ -73,7 +73,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover {
-    background-color: #42575f;
+    background-color: #3a4c53;
     cursor: pointer;
 }
 
@@ -93,7 +93,7 @@ form > a.botao{
 }
 
 form > a.botao:hover{
-    background-color: #42575f;
+    background-color: #3a4c53;
     color: white;
 }
 
