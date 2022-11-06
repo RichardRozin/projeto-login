@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 *{
     margin: 0px;
     padding: 0px;
@@ -108,3 +107,37 @@ label{
     display: none;
     text-align: center;
 }
+
+/*Media type com o dispositivo deitado*/
+@media screen and (orientation: landscape){
+    section#login{
+        width: 80vw;
+        height: 285px;
+    }
+
+    div#imagem{
+        float: left;
+        background-position: center center;
+        width: 30%;
+        height: 100%;
+    }
+    
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+    
+    div#formulario > p{
+        font-size: 1em;
+    }
+    
+    div.campo{
+        margin: 12px 0px;
+    }
+    
+    form > a.botao{
+        margin-top: 15px;
+    }
+
+}
+
